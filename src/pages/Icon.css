@@ -1,0 +1,36 @@
+.icons-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.icons-header {
+    margin-bottom: 40px;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.icon-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.icon-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 40px; /* Adjust the icon size */
+    display: block;
+    margin-bottom: 10px;
+}
